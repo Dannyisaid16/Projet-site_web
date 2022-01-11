@@ -1,0 +1,71 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Formulaire de conatct </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    
+  </head>
+  <body>
+    <form>
+      <h1>Contactez-nous</h1>
+      <div class="separation"></div>
+      <div class="corps-formulaire">
+        <div class="gauche">
+             
+          <div class="groupe">
+            <label>Votre Nom </label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-user"></i>
+          </div>
+           <div class="groupe">
+            <label>Votre Prenom </label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre adresse e-mail</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="groupe">
+            <label>Votre téléphone</label>
+            <input type="text" autocomplete="off" />
+            <i class="fas fa-mobile"></i>
+          </div>
+          <div class="groupe">
+            <label>Localisation (code postale) </label>
+            <input type="int" autocomplete="off" />
+              <i class="fas fa-home"></i>        
+          </div>
+          <br>
+          <label>Nature des travaux</label>
+          <br>
+          <span class="wpcf7-form-control-wrap nature-travaux"><span class="wpcf7-form-control wpcf7-checkbox"><span class="wpcf7-list-item first">
+           <br> <input type="checkbox" name="nature-travaux[]" value="Electricité"><span class="wpcf7-list-item-label">Electricité</span></span><span class="wpcf7-list-item">
+            <br><input type="checkbox" name="nature-travaux[]" value="Plomberie, chauffage"><span class="wpcf7-list-item-label">Plomberie, chauffage</span></span><span class="wpcf7-list-item">
+            <br><input type="checkbox" name="nature-travaux[]" value="Maçonnerie, cloisons, isolation"><span class="wpcf7-list-item-label">Maçonnerie, cloisons, isolation</span></span><span class="wpcf7-list-item">
+            <br><input type="checkbox" name="nature-travaux[]" value="Sols (parquet, moquette, carrelage...)"><span class="wpcf7-list-item-label">Sols (parquet, moquette, carrelage...)</span></span><span class="wpcf7-list-item">
+            <br><input type="checkbox" name="nature-travaux[]" value="Murs (revêtements, peinture...)"><span class="wpcf7-list-item-label">Murs (revêtements, peinture...)</span></span><span class="wpcf7-list-item last">
+            <br><input type="checkbox" name="nature-travaux[]" value="Menuiserie (placards, cuisine...)"><span class="wpcf7-list-item-label">Menuiserie (placards, cuisine...)</span></span></span></span>
+        </div>
+          
+        <div class="droite">
+          <div class="groupe">
+            <label>Message</label>
+            <textarea placeholder="Detailler votre projet de renovation ..."></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="pied-formulaire" align="center">
+        <button>Envoyer le message</button>
+      </div>
+    </form>
+  </body>
+</html>
